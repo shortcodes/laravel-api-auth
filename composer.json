@@ -1,0 +1,28 @@
+{
+    "name": "shortcodes/laravel-api-auth",
+    "description": "Simple package allows to use Laravel authentication features like register and remind password as API out of the box",
+    "type": "package",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Roman Szymanski",
+            "email": "roman.szymanski@shortcodes.pl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shortcodes\\ApiAuth\\AuthenticationPackageProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Shortcodes\\ApiAuth\\": "src/"
+        }
+    }
+}
