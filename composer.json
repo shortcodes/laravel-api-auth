@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shortcodes\\ApiAuth\\AuthenticationPackageProvider"
+                "Shortcodes\\ApiAuth\\ApiAuthPackageProvider"
             ]
         }
     },
