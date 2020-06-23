@@ -1,6 +1,6 @@
 <?php
 
-namespace Shortcodes\LaravelApiAuth;
+namespace Shortcodes\ApiAuth;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
